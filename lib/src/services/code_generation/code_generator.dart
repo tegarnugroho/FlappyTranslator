@@ -20,7 +20,7 @@ class CodeGenerator {
   late List<String> _supportedLanguages;
 
   /// Returns a string formatted according to default dart rules
-  String get formattedString => DartFormatter().format(_template);
+  String get formattedString => DartFormatter(languageVersion: DartFormatter.latestLanguageVersion).format(_template);
 
   CodeGenerator({
     String className = DefaultSettings.className,
