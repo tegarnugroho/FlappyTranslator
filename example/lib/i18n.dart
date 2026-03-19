@@ -9,9 +9,7 @@ import 'package:flutter/widgets.dart';
 class I18n {
   String get plainText => _getText("plainText");
 
-  String welcome({
-    required String name,
-  }) =>
+  String welcome({required String name}) =>
       _getText("welcome").replaceAll("%name\$s", name);
 
   String get favoriteColor => _getText("favoriteColor");

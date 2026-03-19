@@ -1,3 +1,9 @@
+## [2.2.0] - 19/03/2026
+
+* Updated dart_style dependency from ^2.3.0 to ^3.0.0 for Flutter 3.35.7+ compatibility
+* Updated code to use DartFormatter.latestLanguageVersion as required by dart_style 3.x
+* Updated test expectations to match dart_style 3.x formatting conventions
+
 ## [2.1.0] - 20/10/2024
 
 * Set Dart 3 as minimum constraint
